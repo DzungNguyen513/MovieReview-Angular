@@ -1,27 +1,86 @@
-# Movie
+# Movie Review Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+## Introduction
 
-## Development server
+This project is an Angular application for reviewing movies. It allows users to view and submit reviews for various movies.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshot: Home Page
 
-## Code scaffolding
+![Screenshot of Movie Review Angular](https://github.com/DzungNguyen513/MovieReview-Angular/blob/master/src/assets/img/Screenshot%202024-06-21%20164911.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Screenshot: Home Page
 
-## Build
+![Screenshot of Movie Review Angular](https://github.com/DzungNguyen513/MovieReview-Angular/blob/master/src/assets/img/Screenshot%202024-06-21%20164946.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshot: View Trailer
 
-## Running unit tests
+![Screenshot of Movie Review Angular](https://github.com/DzungNguyen513/MovieReview-Angular/blob/master/src/assets/img/Screenshot%202024-06-21%20165107.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshot: Post Review
 
-## Running end-to-end tests
+![Screenshot of Movie Review Angular](https://github.com/DzungNguyen513/MovieReview-Angular/blob/master/src/assets/img/Screenshot%202024-06-21%20165124.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Features
 
-## Further help
+- View a list of movies
+- Submit reviews for movies
+- View details and reviews of each movie
+- User authentication and authorization
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/DzungNguyen513/MovieReview-Angular.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd MovieReview-Angular
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+    The application should now be running on `http://localhost:4200`.
+
+## Usage
+
+1. Open your web browser and navigate to `http://localhost:4200`.
+2. Browse the list of movies.
+3. Click on a movie to view its details and reviews.
+4. Submit your own review by filling out the review form.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with a clear message.
+4. Push your changes to your fork.
+5. Open a pull request on the original repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- **Email**: dzungnguyen@example.com
+- **GitHub**: [DzungNguyen513](https://github.com/DzungNguyen513)
