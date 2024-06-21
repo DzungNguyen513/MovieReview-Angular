@@ -1,0 +1,40 @@
+.carousel-img {
+  width: 100vw;
+  height: calc(100vh - 56px);
+}
+
+.movie-details {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100vw - 30%);
+}
+.movie-poster-img {
+  height: 300px;
+  width: 200px;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
+.play-button-icon {
+  color: gold;
+  font-size: 3rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.play-button-icon:hover {
+  color: #fff;
+  font-size: 4rem;
+}
+.review-btn {
+  background-color: gold !important;
+}
+@media screen and (max-width: 480px) {
+  .movie-poster-img {
+    height: 200px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,30 @@
+<div class="review-container">
+  <div>
+    <img
+      class="trailer-img img-fluid"
+      [src]="movieService.selectedMovie().poster"
+    />
+  </div>
+  <div>
+    <form (ngSubmit)="onSubmitReview()">
+      <div class="form-floating">
+        <textarea
+          class="form-control text-review"
+          placeholder="Leave a comment here"
+          id="comments"
+          [formControl]="review"
+        ></textarea>
+        <label for="comments">Comments</label>
+      </div>
+      <button type="submit" class="btn btn-outline-primary mt-2">Submit</button>
+    </form>
+
+    <div class="mt-3 text-white">
+      <ng-container
+        *ngFor="let review of movieService.selectedMovie().reviewIds"
+      >
+        <p>{{ review.body }}</p>
+      </ng-container>
+    </div>
+  </div>
+</div>
